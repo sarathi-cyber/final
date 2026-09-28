@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Roomwise Student Hub
 
 A single full-stack Next.js application that combines:
@@ -156,19 +155,3 @@ The two additional uploaded ZIPs contain the same ten timetable PDFs already pre
 ## Chatbot reliability update
 
 The Attendance Advisor now keeps chat history while dashboard values refresh, remembers the last subject for follow-up questions, understands timetable/tomorrow/next-class questions, supports "if I miss X classes" and "how many can I miss" scenarios, and gives clearer fallback messages when attendance inputs are missing.
-
-## Preloaded class + attendance setup (v3.2)
-
-The Attendance page no longer requires students to manually add subjects or timetable data.
-
-- Real subject names, subject codes, faculty names, credits/slot labels, room assignments and weekly timetable slots are transcribed from the supplied 2026-27 timetable PDFs.
-- Selecting a section automatically loads every subject/block for that section.
-- `data/preloaded-attendance.json` contains the built-in starting attendance profile.
-- Conducted counts are derived from scheduled classes completed through **2026-09-28 15:22 IST**.
-- The uploaded ZIPs do **not** contain a student-specific attendance/absence export, so the built-in demo profile initializes `attended = conducted`. This is intentionally labeled in the UI and can be edited locally when official counts are available.
-- Local edits remain browser-saved per section. The **Reset preloaded attendance** button restores the bundled defaults.
-
-This keeps the hackathon demo zero-setup without presenting invented absence records as official data.
-=======
-# final
->>>>>>> b419b2e15552ada4eb5168815a0b5fe9a7bc024e

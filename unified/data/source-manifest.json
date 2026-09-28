@@ -1,0 +1,55 @@
+{
+  "canonicalSources": [
+    {
+      "name": "I year Time Table SEEE.pdf",
+      "bytes": 3425449,
+      "sha256": "569dddce1299e0795d37f871a4380f19ff52c2b8240e80c77daf4bb170da8764"
+    },
+    {
+      "name": "II BME.pdf",
+      "bytes": 669931,
+      "sha256": "150388d8113820ae1a13b0f2bb1ea61002d6add7c3836c90b58b3d9b15d72d19"
+    },
+    {
+      "name": "II ECE DS A.pdf",
+      "bytes": 648084,
+      "sha256": "cfb78a9a2a3085dad1010a7a46ab2916c5505a6073281d2ed21fb0215035690e"
+    },
+    {
+      "name": "II ECE DS B.pdf",
+      "bytes": 623762,
+      "sha256": "177cfeb7e2e7bcbcdc248f1eac094317bb2fa42d4fbbc1b48e8695d61eab3446"
+    },
+    {
+      "name": "III BME.pdf",
+      "bytes": 678678,
+      "sha256": "9e22836c5b4b7524dab3206e662476a912acdcb56c2714e9146efd2026d616e7"
+    },
+    {
+      "name": "III ECE A.pdf",
+      "bytes": 629975,
+      "sha256": "b00d64a1750e8722b8a8ab42a2fb6c6f25e844ed178f2095a7822e899f6d1c02"
+    },
+    {
+      "name": "III ECE B.pdf",
+      "bytes": 653341,
+      "sha256": "42a2c41f35525fb87d4af90dafdcda05f010a123e602b16c5d164b91406b4a5c"
+    },
+    {
+      "name": "III ECE DS.pdf",
+      "bytes": 615511,
+      "sha256": "3fdf73b38da850b6b5bdbb1d7506ded1e59a0e4de1aa9c2701054c95168d724c"
+    },
+    {
+      "name": "IV ECE A.pdf",
+      "bytes": 578704,
+      "sha256": "e68f47efef80b12c22e8166f3caa51ee844db533acdc6c9403a01631cd99e591"
+    },
+    {
+      "name": "IV ECE B.pdf",
+      "bytes": 571611,
+      "sha256": "e959faee6a75afaee1e52a9fc4b42ce327bb52506295effe7e7e77d23c3968c2"
+    }
+  ],
+  "note": "The two additional uploaded timetable ZIPs matched these PDFs byte-for-byte and were deduplicated in the merged project."
+}
