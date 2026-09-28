@@ -1,0 +1,8 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {"label":"Install dependencies","type":"shell","command":"npm install","problemMatcher":[]},
+    {"label":"Validate merged data","type":"shell","command":"npm run test:data","problemMatcher":[]},
+    {"label":"Production build","type":"shell","command":"npm run build","problemMatcher":[]}
+  ]
+}
