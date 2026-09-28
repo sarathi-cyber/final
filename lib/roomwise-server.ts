@@ -88,7 +88,7 @@ export function liveRoomState(room:any,now:any,claim:any=null,nowEpoch=Date.now(
   const coverageEndEpoch=insideWindow?epochForIstMinute(now.date,END):null;
   const freeUntil=current.length?null:(next?.start??(insideWindow?END:null));
   const freeUntilEpoch=freeUntil==null?null:epochForIstMinute(now.date,freeUntil);
-  const minutesToNext=next?Math.max(0,Math.ceil((nextStartEpoch-nowEpoch)/60000)):null;
+  const minutesToNext=next&&nextStartEpoch!==null?Math.max(0,Math.ceil((nextStartEpoch-nowEpoch)/60000)):null;
   let availability='unknown';
   if(insideWindow){
     if(room.type==='lab') availability='restricted';
