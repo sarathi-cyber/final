@@ -1,0 +1,2 @@
+import { Section } from '@/types/attendance';
+export function SectionSelector({ sections, value, onChange }: { sections:Section[]; value:string; onChange:(id:string)=>void }) { return <div className="flex flex-wrap gap-2">{sections.map(s=><button key={s.id} onClick={()=>onChange(s.id)} className={`rounded-xl border px-3.5 py-2 text-sm font-semibold transition ${value===s.id?'border-navy bg-navy text-white':'border-line bg-white text-slate-600 hover:border-slate-300 hover:bg-slate-50'}`}>{s.name}</button>)}</div> }

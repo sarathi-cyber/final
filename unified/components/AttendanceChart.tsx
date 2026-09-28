@@ -1,0 +1,5 @@
+'use client';
+import { ResponsiveContainer, BarChart, Bar, XAxis, YAxis, Tooltip, ReferenceLine } from 'recharts';
+import { Subject } from '@/types/attendance';
+import { attendancePercentage } from '@/lib/attendance';
+export function AttendanceChart({ subjects }: { subjects:Subject[] }) { const data=subjects.map(s=>({name:s.name.split(' ').slice(0,2).join(' '),value:Number(attendancePercentage(s.attended,s.conducted).toFixed(1))})); return <div className="rounded-2xl border border-line bg-white p-5 shadow-soft"><h2 className="font-bold">Attendance snapshot</h2><p className="text-sm text-slate-500">A quick visual against the 75% safety threshold.</p><div className="mt-4 h-64"><ResponsiveContainer width="100%" height="100%"><BarChart data={data} margin={{top:10,right:10,left:-20,bottom:20}}><XAxis dataKey="name" tick={{fontSize:11}} angle={-25} textAnchor="end" height={55}/><YAxis domain={[0,100]} tick={{fontSize:11}}/><Tooltip formatter={(v)=>[`${v}%`,'Attendance']}/><ReferenceLine y={75} stroke="#f59e0b" strokeDasharray="5 5"/><Bar dataKey="value" fill="#12233f" radius={[6,6,0,0]}/></BarChart></ResponsiveContainer></div></div> }

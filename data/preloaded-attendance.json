@@ -1,0 +1,364 @@
+{
+  "asOf": "2026-09-28T15:22:00+05:30",
+  "note": "Completed class counts are derived from the supplied timetable. No per-student attendance/absence file was present, so attended is initialized equal to conducted as a demo starting profile.",
+  "sections": {
+    "IV_ECE_A": {
+      "IV_ECE_A__C": {
+        "attended": 14,
+        "conducted": 14
+      },
+      "IV_ECE_A__A": {
+        "attended": 14,
+        "conducted": 14
+      },
+      "IV_ECE_A__D": {
+        "attended": 14,
+        "conducted": 14
+      },
+      "IV_ECE_A__B": {
+        "attended": 12,
+        "conducted": 12
+      },
+      "IV_ECE_A__F": {
+        "attended": 12,
+        "conducted": 12
+      },
+      "IV_ECE_A__LAB": {
+        "attended": 4,
+        "conducted": 4
+      },
+      "IV_ECE_A__E": {
+        "attended": 12,
+        "conducted": 12
+      }
+    },
+    "IV_ECE_B": {
+      "IV_ECE_B__C": {
+        "attended": 14,
+        "conducted": 14
+      },
+      "IV_ECE_B__A": {
+        "attended": 14,
+        "conducted": 14
+      },
+      "IV_ECE_B__E": {
+        "attended": 14,
+        "conducted": 14
+      },
+      "IV_ECE_B__F": {
+        "attended": 14,
+        "conducted": 14
+      },
+      "IV_ECE_B__B": {
+        "attended": 12,
+        "conducted": 12
+      },
+      "IV_ECE_B__D": {
+        "attended": 12,
+        "conducted": 12
+      },
+      "IV_ECE_B__LAB": {
+        "attended": 4,
+        "conducted": 4
+      }
+    },
+    "III_ECE_A": {
+      "III_ECE_A__E": {
+        "attended": 14,
+        "conducted": 14
+      },
+      "III_ECE_A__B": {
+        "attended": 16,
+        "conducted": 16
+      },
+      "III_ECE_A__A": {
+        "attended": 18,
+        "conducted": 18
+      },
+      "III_ECE_A__G": {
+        "attended": 16,
+        "conducted": 16
+      },
+      "III_ECE_A__H": {
+        "attended": 4,
+        "conducted": 4
+      },
+      "III_ECE_A__D": {
+        "attended": 12,
+        "conducted": 12
+      },
+      "III_ECE_A__B_PROJ": {
+        "attended": 4,
+        "conducted": 4
+      },
+      "III_ECE_A__C": {
+        "attended": 12,
+        "conducted": 12
+      },
+      "III_ECE_A__F": {
+        "attended": 8,
+        "conducted": 8
+      },
+      "III_ECE_A__LAB": {
+        "attended": 16,
+        "conducted": 16
+      }
+    },
+    "III_ECE_B": {
+      "III_ECE_B__LAB": {
+        "attended": 20,
+        "conducted": 20
+      },
+      "III_ECE_B__E": {
+        "attended": 14,
+        "conducted": 14
+      },
+      "III_ECE_B__B": {
+        "attended": 14,
+        "conducted": 14
+      },
+      "III_ECE_B__A": {
+        "attended": 17,
+        "conducted": 17
+      },
+      "III_ECE_B__D": {
+        "attended": 13,
+        "conducted": 13
+      },
+      "III_ECE_B__G": {
+        "attended": 12,
+        "conducted": 12
+      },
+      "III_ECE_B__F": {
+        "attended": 8,
+        "conducted": 8
+      },
+      "III_ECE_B__C": {
+        "attended": 12,
+        "conducted": 12
+      },
+      "III_ECE_B__B_PROJ": {
+        "attended": 4,
+        "conducted": 4
+      },
+      "III_ECE_B__H": {
+        "attended": 4,
+        "conducted": 4
+      }
+    },
+    "III_ECE_DS": {
+      "III_ECE_DS__E": {
+        "attended": 14,
+        "conducted": 14
+      },
+      "III_ECE_DS__B": {
+        "attended": 14,
+        "conducted": 14
+      },
+      "III_ECE_DS__C": {
+        "attended": 14,
+        "conducted": 14
+      },
+      "III_ECE_DS__A": {
+        "attended": 18,
+        "conducted": 18
+      },
+      "III_ECE_DS__D": {
+        "attended": 12,
+        "conducted": 12
+      },
+      "III_ECE_DS__F": {
+        "attended": 8,
+        "conducted": 8
+      },
+      "III_ECE_DS__LAB": {
+        "attended": 16,
+        "conducted": 16
+      },
+      "III_ECE_DS__H": {
+        "attended": 4,
+        "conducted": 4
+      },
+      "III_ECE_DS__G": {
+        "attended": 16,
+        "conducted": 16
+      },
+      "III_ECE_DS__B_PROJ": {
+        "attended": 4,
+        "conducted": 4
+      }
+    },
+    "III_BME": {
+      "III_BME__G": {
+        "attended": 16,
+        "conducted": 16
+      },
+      "III_BME__MPMC_LAB": {
+        "attended": 12,
+        "conducted": 12
+      },
+      "III_BME__E": {
+        "attended": 14,
+        "conducted": 14
+      },
+      "III_BME__B": {
+        "attended": 14,
+        "conducted": 14
+      },
+      "III_BME__F": {
+        "attended": 13,
+        "conducted": 13
+      },
+      "III_BME__H": {
+        "attended": 5,
+        "conducted": 5
+      },
+      "III_BME__BIO_DSP_LAB": {
+        "attended": 8,
+        "conducted": 8
+      },
+      "III_BME__C": {
+        "attended": 12,
+        "conducted": 12
+      },
+      "III_BME__D": {
+        "attended": 12,
+        "conducted": 12
+      },
+      "III_BME__A": {
+        "attended": 16,
+        "conducted": 16
+      },
+      "III_BME__I": {
+        "attended": 8,
+        "conducted": 8
+      }
+    },
+    "II_BME": {
+      "II_BME__E": {
+        "attended": 14,
+        "conducted": 14
+      },
+      "II_BME__C": {
+        "attended": 14,
+        "conducted": 14
+      },
+      "II_BME__I": {
+        "attended": 12,
+        "conducted": 12
+      },
+      "II_BME__DLMS_EEC": {
+        "attended": 20,
+        "conducted": 20
+      },
+      "II_BME__B": {
+        "attended": 12,
+        "conducted": 12
+      },
+      "II_BME__A": {
+        "attended": 16,
+        "conducted": 16
+      },
+      "II_BME__H": {
+        "attended": 12,
+        "conducted": 12
+      },
+      "II_BME__D": {
+        "attended": 12,
+        "conducted": 12
+      },
+      "II_BME__G": {
+        "attended": 12,
+        "conducted": 12
+      },
+      "II_BME__F": {
+        "attended": 4,
+        "conducted": 4
+      }
+    },
+    "II_ECE_DS_A": {
+      "II_ECE_DS_A__E": {
+        "attended": 14,
+        "conducted": 14
+      },
+      "II_ECE_DS_A__A": {
+        "attended": 18,
+        "conducted": 18
+      },
+      "II_ECE_DS_A__I": {
+        "attended": 12,
+        "conducted": 12
+      },
+      "II_ECE_DS_A__G": {
+        "attended": 16,
+        "conducted": 16
+      },
+      "II_ECE_DS_A__LAB": {
+        "attended": 18,
+        "conducted": 18
+      },
+      "II_ECE_DS_A__C": {
+        "attended": 16,
+        "conducted": 16
+      },
+      "II_ECE_DS_A__D": {
+        "attended": 12,
+        "conducted": 12
+      },
+      "II_ECE_DS_A__H": {
+        "attended": 12,
+        "conducted": 12
+      },
+      "II_ECE_DS_A__B": {
+        "attended": 12,
+        "conducted": 12
+      },
+      "II_ECE_DS_A__F": {
+        "attended": 4,
+        "conducted": 4
+      }
+    },
+    "II_ECE_DS_B": {
+      "II_ECE_DS_B__LAB": {
+        "attended": 20,
+        "conducted": 20
+      },
+      "II_ECE_DS_B__D": {
+        "attended": 14,
+        "conducted": 14
+      },
+      "II_ECE_DS_B__B": {
+        "attended": 14,
+        "conducted": 14
+      },
+      "II_ECE_DS_B__C": {
+        "attended": 17,
+        "conducted": 17
+      },
+      "II_ECE_DS_B__I": {
+        "attended": 9,
+        "conducted": 9
+      },
+      "II_ECE_DS_B__E": {
+        "attended": 12,
+        "conducted": 12
+      },
+      "II_ECE_DS_B__A": {
+        "attended": 16,
+        "conducted": 16
+      },
+      "II_ECE_DS_B__G": {
+        "attended": 12,
+        "conducted": 12
+      },
+      "II_ECE_DS_B__H": {
+        "attended": 12,
+        "conducted": 12
+      },
+      "II_ECE_DS_B__F": {
+        "attended": 4,
+        "conducted": 4
+      }
+    }
+  }
+}

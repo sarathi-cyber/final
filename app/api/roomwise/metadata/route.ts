@@ -1,0 +1,4 @@
+import { NextResponse } from 'next/server'; import { readMetadata,writeMetadata,safeMetadataValue,getData } from '@/lib/roomwise-server'; import raw from '@/data/roomwise.data.json';
+export const dynamic='force-dynamic'; export const runtime='nodejs';
+export async function GET(){return NextResponse.json({rooms:await readMetadata()});}
+export async function PUT(req:Request){try{const b=await req.json();if(!b.rooms||typeof b.rooms!=='object'||Array.isArray(b.rooms))return NextResponse.json({error:'Expected a rooms object.'},{status:400});const ids=new Set(raw.rooms.map(r=>r.id));const clean:any={};for(const [id,v] of Object.entries(b.rooms))if(ids.has(id))clean[id]=safeMetadataValue(v);await writeMetadata(clean);return NextResponse.json({ok:true,rooms:clean,data:await getData()});}catch(e:any){return NextResponse.json({error:e.message||'Could not save room details.'},{status:400});}}
