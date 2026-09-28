@@ -3,9 +3,9 @@
     {
       "id": "107",
       "name": "IST 107",
-      "floor": null,
-      "ac": null,
-      "capacity": null,
+      "floor": 1,
+      "ac": false,
+      "capacity": 30,
       "type": "lab",
       "sections": [],
       "coverage": "partial"
@@ -13,9 +13,9 @@
     {
       "id": "108",
       "name": "IST 108",
-      "floor": null,
-      "ac": null,
-      "capacity": null,
+      "floor": 1,
+      "ac": true,
+      "capacity": 30,
       "type": "lab",
       "sections": [],
       "coverage": "partial"
@@ -23,9 +23,9 @@
     {
       "id": "211",
       "name": "IST 211",
-      "floor": null,
-      "ac": null,
-      "capacity": null,
+      "floor": 2,
+      "ac": true,
+      "capacity": 60,
       "type": "classroom",
       "sections": [
         "III BME"
@@ -35,9 +35,9 @@
     {
       "id": "225",
       "name": "IST 225",
-      "floor": null,
-      "ac": null,
-      "capacity": null,
+      "floor": 2,
+      "ac": true,
+      "capacity": 60,
       "type": "classroom",
       "sections": [
         "IV ECE A"
@@ -47,9 +47,9 @@
     {
       "id": "227",
       "name": "IST 227",
-      "floor": null,
-      "ac": null,
-      "capacity": null,
+      "floor": 2,
+      "ac": true,
+      "capacity": 60,
       "type": "classroom",
       "sections": [
         "IV ECE B"
@@ -59,9 +59,9 @@
     {
       "id": "309",
       "name": "IST 309",
-      "floor": null,
-      "ac": null,
-      "capacity": null,
+      "floor": 3,
+      "ac": true,
+      "capacity": 36,
       "type": "lab",
       "sections": [],
       "coverage": "partial"
@@ -69,9 +69,9 @@
     {
       "id": "401",
       "name": "IST 401",
-      "floor": null,
-      "ac": null,
-      "capacity": null,
+      "floor": 4,
+      "ac": true,
+      "capacity": 60,
       "type": "classroom",
       "sections": [],
       "coverage": "partial"
@@ -79,9 +79,9 @@
     {
       "id": "411",
       "name": "IST 411",
-      "floor": null,
-      "ac": null,
-      "capacity": null,
+      "floor": 4,
+      "ac": true,
+      "capacity": 60,
       "type": "classroom",
       "sections": [
         "II ECE DS B"
@@ -91,9 +91,9 @@
     {
       "id": "416",
       "name": "IST 416",
-      "floor": null,
-      "ac": null,
-      "capacity": null,
+      "floor": 4,
+      "ac": true,
+      "capacity": 60,
       "type": "classroom",
       "sections": [
         "II ECE DS A"
@@ -103,9 +103,9 @@
     {
       "id": "518",
       "name": "IST 518",
-      "floor": null,
-      "ac": null,
-      "capacity": null,
+      "floor": 5,
+      "ac": true,
+      "capacity": 70,
       "type": "classroom",
       "sections": [
         "III ECE A",
@@ -116,9 +116,9 @@
     {
       "id": "519",
       "name": "IST 519",
-      "floor": null,
-      "ac": null,
-      "capacity": null,
+      "floor": 5,
+      "ac": true,
+      "capacity": 60,
       "type": "classroom",
       "sections": [
         "III ECE DS"
@@ -128,9 +128,9 @@
     {
       "id": "602",
       "name": "IST 602",
-      "floor": null,
-      "ac": null,
-      "capacity": null,
+      "floor": 6,
+      "ac": true,
+      "capacity": 60,
       "type": "classroom",
       "sections": [
         "II BME"
@@ -140,9 +140,9 @@
     {
       "id": "625",
       "name": "IST 625",
-      "floor": null,
-      "ac": null,
-      "capacity": null,
+      "floor": 6,
+      "ac": true,
+      "capacity": 70,
       "type": "classroom",
       "sections": [],
       "coverage": "partial"
@@ -150,9 +150,9 @@
     {
       "id": "TB106",
       "name": "TB 106",
-      "floor": null,
-      "ac": null,
-      "capacity": null,
+      "floor": 0,
+      "ac": true,
+      "capacity": 80,
       "type": "classroom",
       "sections": [],
       "coverage": "partial"
@@ -2784,61 +2784,61 @@
     {
       "name": "IV ECE A.pdf",
       "section": "IV ECE A",
-      "year": "2026\u201327",
+      "year": "2026–27",
       "active": true
     },
     {
       "name": "IV ECE B.pdf",
       "section": "IV ECE B",
-      "year": "2026\u201327",
+      "year": "2026–27",
       "active": true
     },
     {
       "name": "III ECE A.pdf",
       "section": "III ECE A",
-      "year": "2026\u201327",
+      "year": "2026–27",
       "active": true
     },
     {
       "name": "III ECE B.pdf",
       "section": "III ECE B",
-      "year": "2026\u201327",
+      "year": "2026–27",
       "active": true
     },
     {
       "name": "III ECE DS.pdf",
       "section": "III ECE DS",
-      "year": "2026\u201327",
+      "year": "2026–27",
       "active": true
     },
     {
       "name": "III BME.pdf",
       "section": "III BME",
-      "year": "2026\u201327",
+      "year": "2026–27",
       "active": true
     },
     {
       "name": "II BME.pdf",
       "section": "II BME",
-      "year": "2026\u201327",
+      "year": "2026–27",
       "active": true
     },
     {
       "name": "II ECE DS A.pdf",
       "section": "II ECE DS A",
-      "year": "2026\u201327",
+      "year": "2026–27",
       "active": true
     },
     {
       "name": "II ECE DS B.pdf",
       "section": "II ECE DS B",
-      "year": "2026\u201327",
+      "year": "2026–27",
       "active": true
     },
     {
       "name": "I year Time Table SEEE.pdf",
-      "section": "First-year timetables \u00b7 4 pages",
-      "year": "2024\u201325",
+      "section": "First-year timetables · 4 pages",
+      "year": "2024–25",
       "active": false
     }
   ],
